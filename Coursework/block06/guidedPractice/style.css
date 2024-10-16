@@ -1,0 +1,46 @@
+* {
+    font-family: Calibri;
+}
+
+.Title {
+    background-color: rgb(243, 133, 0);
+    border: 1px solid;
+    height: 40px;
+    width: 370px;
+}
+
+.OuterContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.InnerContainer {
+    background-color: rgb(197, 204, 231);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 175px;
+}
+
+h1 {
+    color: rgb(255, 153, 0);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+}
+
+h3 {
+    transform: translateX(10%);
+}
+
+img {
+    height: 150px;
+    width: 175px;
+    object-fit: cover;
+    padding: 0 5px;
+}
